@@ -21,6 +21,7 @@ public class Waits
 		WebDriverWait w= new WebDriverWait(driver, 5);
 		w.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("input.promoCode")));//explicit wait: it will affect the particular line of code
 		//cannot apply globally, 
+		//new code written
 		
 	}
 
